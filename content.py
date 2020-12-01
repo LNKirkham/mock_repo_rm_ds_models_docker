@@ -14,4 +14,3 @@ importer = Importer([repo], mock_repo)
 # Since the private repo uses work email, and Github profiles uses
 # my work email
 print("roidf")
-print("mdpbd")
