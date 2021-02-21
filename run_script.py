@@ -3,10 +3,10 @@ import git
 from git_contributions_importer import *
 
 # Your private repo or Bitbucket repo
-repo = git.Repo("/Users/louisekirkham/Documents/projects/data-science-models---docker")
+repo = git.Repo("/Users/louisekirkham/Documents/Projects/data-science-models---docker")
 
 # Your mock repo
-mock_repo = git.Repo("/Users/louisekirkham/Documents/my_projects/mock_repo_rm_ds_models_docker")
+mock_repo = git.Repo("/Users/louisekirkham/Documents/Projects/github_mock_repos/mock_repo_rm_ds_models_docker")
 importer = Importer([repo], mock_repo)
 
 # I use both my personal email and work email here,
